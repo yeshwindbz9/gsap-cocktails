@@ -39,7 +39,7 @@ const Art = () => {
   return (
     <div id="art">
       <div className="container mx-auto h-full pt-20">
-        <h2 className="will-fade">The Art</h2>
+        <h2 className="will-fade">Experience</h2>
         <div className="content">
           <ul className="space-y-4 will-fade">
             {goodLists.map((feature, idx) => (
@@ -52,7 +52,7 @@ const Art = () => {
 
           <div className="cocktail-img">
             <img
-              src="/images/under-img.jpg"
+              src="/images/under-img.png"
               alt="cocktail"
               className="abs-center masked-img size-full object-contain"
             />
