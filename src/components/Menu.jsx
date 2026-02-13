@@ -104,7 +104,11 @@ const Menu = () => {
         </div>
         <div className="cocktail">
           <img
-            src={currentCocktail.image}
+            src={
+              currentCocktail.image?.startsWith("http")
+                ? currentCocktail.image
+                : `${import.meta.env.BASE_URL}${String(currentCocktail.image).replace(/^\//, "")}`
+            }
             alt="cocktail-img"
             className="object-contain"
           />
