@@ -1,16 +1,55 @@
-# React + Vite
+# Stunning GSAP React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, scroll-driven website built with **React**, **Vite**, and **GSAP**—focused on smooth transitions, cinematic motion, and a clean responsive UI.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Introduction
+- Tech Stack
+- Features
+- Quick Start
 
-## React Compiler
+## Introduction
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project showcases a polished GSAP-powered experience with timeline-based animations, scroll interactions, and section-to-section motion that feels smooth and premium across desktop and mobile.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React – component-based UI
+- GSAP – timelines + ScrollTrigger animations
+- Vite – fast dev server + optimized builds
+- Tailwind CSS (if used) – utility-first styling
+
+## Features
+
+- Scroll-triggered animations (GSAP ScrollTrigger)
+- Smooth section transitions and pinned moments
+- Text/element reveal sequences (timelines)
+- Parallax-style motion and subtle depth
+- Responsive layout and animation behavior
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Install
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+npm run preview
+```
