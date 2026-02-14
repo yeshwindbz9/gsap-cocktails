@@ -81,8 +81,10 @@ const Hero = () => {
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p>Zesty. Lively. Legendary.</p>
-              <p className="subtitle">
-                Taste the Moment <br /> Feel Alive
+              <p className="subtitle text-left">
+                Taste the Moment
+                <br />
+                Feel Alive
               </p>
             </div>
 

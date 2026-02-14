@@ -85,7 +85,15 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 aria-label={social.name}
               >
-                <img src={social.icon} alt={social.name} />
+                <img
+                  src={
+                    social.icon?.startsWith("http")
+                      ? social.icon
+                      : `${import.meta.env.BASE_URL}${String(social.icon).replace(/^\//, "")}`
+                  }
+                  alt={social.name}
+                  className="object-contain"
+                />
               </a>
             ))}
           </div>
