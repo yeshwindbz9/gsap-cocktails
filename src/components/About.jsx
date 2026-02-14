@@ -66,7 +66,7 @@ const About = () => {
         <div className="md:col-span-3">
           <div className="noisy" />
           <img
-            src={`${import.meta.env.BASE_URL}/images/abt1.png`}
+            src={`${import.meta.env.BASE_URL}images/abt1.png`}
             alt="grid-img-1"
           />
         </div>
@@ -74,7 +74,7 @@ const About = () => {
         <div className="md:col-span-6">
           <div className="noisy" />
           <img
-            src={`${import.meta.env.BASE_URL}/images/abt2.png`}
+            src={`${import.meta.env.BASE_URL}images/abt2.png`}
             alt="grid-img-2"
           />
         </div>
@@ -82,7 +82,7 @@ const About = () => {
         <div className="md:col-span-3">
           <div className="noisy" />
           <img
-            src={`${import.meta.env.BASE_URL}/images/abt5.png`}
+            src={`${import.meta.env.BASE_URL}images/abt5.png`}
             alt="grid-img-5"
           />
         </div>
@@ -92,14 +92,14 @@ const About = () => {
         <div className="md:col-span-8">
           <div className="noisy" />
           <img
-            src={`${import.meta.env.BASE_URL}/images/abt3.png`}
+            src={`${import.meta.env.BASE_URL}images/abt3.png`}
             alt="grid-img-3"
           />
         </div>
         <div className="md:col-span-4">
           <div className="noisy" />
           <img
-            src={`${import.meta.env.BASE_URL}/images/abt4.png`}
+            src={`${import.meta.env.BASE_URL}images/abt4.png`}
             alt="grid-img-4"
           />
         </div>
