@@ -244,7 +244,7 @@ body {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
-      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
+      @apply relative md:text-[20vw] text-8xl whitespace-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
     }
 
     .content {
@@ -252,7 +252,7 @@ body {
     }
 
     .cocktail-img {
-      @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
+      @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-3xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
     }
 
     .masked-container {
